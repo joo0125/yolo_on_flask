@@ -1,0 +1,18 @@
+<html>
+    <head></head>
+    <body>
+        <div display="display:block">
+            {%for c in c1%}
+            <span>{{c.market}}</span>
+            <span>{{c.star}}</span>
+            {% endfor %}
+          </div>
+          <div display="display:none">
+            {%for c in c2%}
+            <span>{{c.market}}</span>
+            <span>{{c.star}}</span>
+            {% endfor %}
+        </div>
+    </body>
+</html>
+
